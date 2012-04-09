@@ -1,0 +1,139 @@
+a {
+	text-decoration:none;
+	color: rgb(30,30,210);
+}
+
+a:visited {
+	text-decoration:none;
+	color:rgb(100,100,165);
+}
+a:hover {
+	text-decoration:none;
+	color:rgb(187,0,0);
+}
+body {
+	font-family: sans-serif;
+	background-color: rgb(245,245,245);
+}
+h1 {
+	font-family: serif; font-size: 1.7 em; 
+	color: rgb(0,0,128);
+	font-weight: bold;
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+}
+h2 {
+	font-family: serif; font-size: 1.5 em; 
+	color: rgb(0,0,128);
+	font-weight: bold;
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+	border-bottom: 1px rgb(230,0,0) solid;
+}
+h3 {
+	font-family: serif; font-size: 1.2 em;
+	color: rgb(0,0,128);
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 1.5em;
+	margin-bottom: 0;
+}
+em { 
+	color: rgb(200,80,25);
+	font-style: italic;
+}
+strong { 
+	color: rgb(200,80,25);
+	font-weight: bold;
+}
+.navigation { 
+	margin-top: 0;
+    margin-bottom: 1em;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	background-color: rgb(215,225,240);
+	font-size: 90%;
+	font-weight: bold;
+	font-style: italic;
+	font-family: sans-serif;
+}
+.abstract {
+    display: inline-table;
+    width: 95%;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+.abstract .row {
+    display: table-row;
+}
+.abstract .row .outline {
+    display: table-cell;
+    color: rgb(0, 0, 128);
+    text-align: left;
+    vertical-align: top;
+	background-color: rgb(255,255,180);
+}
+.abstract .row .outline .title {
+    color: rgb(0, 0, 128);
+    text-align: center;
+    font-weight: bold;
+}
+.abstract .row .outline .list {
+    color: rgb(0,0,150);
+    padding-right: 1em;
+}
+.abstract .row .content {
+    display: table-cell;
+    vertical-align: top;
+}
+.abstract .row .content .site {
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: italic; 
+    color: rgb(120, 120, 120);
+	border-bottom: 1px rgb(230,0,0) solid;
+    margin-bottom: 1em;
+    margin-right: 20%;
+}
+.abstract .row .content .title {
+    font-weight: bold;
+    font-size: 250%;
+    color: rgb(0, 0, 128);
+    margin: 0em;
+    padding-right: 1em;
+    padding-bottom: 0em;
+    padding-top: 0em;
+}
+.abstract .row .content .description {
+    font-weight: normal;
+    font-size: 100%;
+    color: rgb(0, 0, 128);
+    margin-left: 5%;
+    margin-right: 25%;
+}
+.content{
+	font-family: sans-serif;
+	background-color: rgb(245,245,245);
+    margin-top: 0;
+    margin-bottom: 0;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.toc {
+	border: 1px black solid;
+	background-color: rgb(240,240,255);
+	padding: 0;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.rss {
+    text-align: center;
+}
+.license { 
+	text-align: center;
+	font-size: smaller;
+}
+.license .copyright { 
+    font-style: italic; 
+}
+

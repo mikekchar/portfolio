@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    {% if page.title %}
+	    <title>{{ page.title }} - {{ site.title }}</title>
+	    {% else %}
+	    <title>{{ site.title }}</title>
+	    {% endif %}
+	
+	    <meta name="author" content="Mike Charlton" />
+	    {% if page.description %}
+	    <meta name="description" content="{{ page.description }}" />
+	    {% else %}
+	    <meta name="description" content="{{site.title }} {{ page.title }}" />
+	    {% endif %}
+
+	    {% if page.keywords %}
+	    <meta name="keywords" content="{{ page.keywords }}" />	
+	    {% endif %}
+
+	    <meta name="robots" content="noodp, nydir" />
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	    <link href="/css/style.css" type="text/css" rel="stylesheet" />
+    </head>
+
+    <body>
+        {% include header.html %}
+        <span class="abstract">
+            <div class="row">
+                <div class="content">
+                    <div class="site">{{site.title}}</div>
+                    <h1 class="title">{{page.title}}</h1>
+                    <p class="description">{{page.description}}</p>
+                </div>
+                <div class="outline">
+                    <div class="title">Outline</div>
+                </div>
+            </div>
+        </span>
+		
+	    <div class="content">
+		    {{ content }}
+	    </div>
+		
+	    {% include footer.html %}
+    </body>
+</html>
+

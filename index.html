@@ -1,28 +1,43 @@
-<html>
-    <head>
-        <title>Programming Ideas</title>
-    </head>
-    <body>
-        <h1>Programming Ideas</h1>
-        <p>This is my programming blog/portfolio.</p>
-        <h2>Licensing</h2>
-        <p>Licensing is a very difficult topic.  As this is my own 
-        personal portfolio, I will only place my own content here.</p>
-        <p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-            <img alt="Creative Commons License" style="border-width:0" 
-            src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
-        <br />This work is licensed under a 
-        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-            Creative Commons Attribution 3.0 Unported License</a>.</p>
-        <p>I will frequently embed code from other projects into this 
-        portfolio.  The code snippets I embed will be covered by the 
-        creative commons license, no matter what the original license was.  
-        However, this does not imply a change in the license of the 
-        original code.  As I said, I will only post my own code here, 
-        and since I hold the copyright, I will dual license those 
-        snippets only.  If you wish to use the content of my portfolio, 
-        or of any of my projects under different terms, please contact me.  
-        In most cases I will be happy to provide other options.</p>
-    </body>
-</html>
+---
+layout: default
+title: Welcome
+description: This is my programming blog/portfolio.
+---
+
+<h2>Latest Posts</h2>
+{% assign posts = site.posts %}
+{% assign listing_limit = 4 %}
+{% for post in posts limit: listing_limit %}
+<div class="post-listing">
+  <div class="inner">
+    <span class="title">
+    <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    {% if post.url %}<a href="{{post.url}}">{% endif %}
+      {{ post.title }}
+    {% if post.url %}</a>{% endif %}
+    </span>
+    <span class="tag-list">
+      {% for tag in post.tags %}
+      <a href="/tags/{{ tag | slugize }}">{{ tag }}</a>
+      {% endfor %}
+    </span>
+  </div>
+</div>
+{% endfor %}
+
+<h2>Licensing</h2>
+<p>Licensing is a very difficult topic.  As this is my own 
+personal portfolio, I will only place my own content here.</p>
+
+<p>As you can see at the bottom of this page, the contents of
+this site are under a Creative Commons license.</p>
+<p>I will frequently embed code from other projects into this 
+portfolio.  The code snippets I embed will be covered by the 
+creative commons license, no matter what the original license was.  
+However, this does not imply a change in the license of the 
+original code.  As I said, I will only post my own code here, 
+and since I hold the copyright, I will dual license those 
+snippets only.  If you wish to use the content of my portfolio, 
+or of any of my projects under different terms, please contact me.  
+In most cases I will be happy to provide other options.</p>
 
