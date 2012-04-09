@@ -6,8 +6,7 @@ h2. Licensing
 
 Licensing is a very difficult topic.  As this is my own personal portfolio,
 I will only place my own content here.  The content is hereby placed under a
-"Creative Commons Attribution 3.0 Unported License":http://creativecommons.org/l
-icenses/by/3.0/ !http://i.creativecommons.org/l/by/3.0/88x31.png!
+"Creative Commons Attribution 3.0 Unported License":http://creativecommons.org/licenses/by/3.0/ !http://i.creativecommons.org/l/by/3.0/88x31.png!
 
 I will frequently embed code from other projects into this portfolio.  
 The code snippets I embed will be covered by the creative commons license, 
