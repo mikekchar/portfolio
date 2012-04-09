@@ -5,9 +5,7 @@ description: This is my programming blog/portfolio.
 ---
 
 <h2>Latest Posts</h2>
-{% assign posts = site.posts %}
-{% assign listing_limit = 4 %}
-{% for post in posts limit: listing_limit %}
+{% for post in site.posts limit: 4 %}
 <div class="post-listing">
   <div class="inner">
     <span class="title">
