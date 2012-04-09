@@ -2,6 +2,10 @@
 
 This is my programming blog/portfolio.  
 
+Note: There is no content on the master branch in GitHub.  If you
+are seeing this it's because you are looking at the master branch.
+Please checkout the gh-pages branch.
+
 ## Licensing
 
 Licensing is a very difficult topic.  As this is my own personal portfolio,
