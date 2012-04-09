@@ -1,5 +1,6 @@
 title: Programming Ideas
 permalink: /:year/:month/:day/:title
+baseurl: /portfolio/
 safe: true
 lsi: false
 pygments: true
