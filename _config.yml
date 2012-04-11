@@ -1,6 +1,6 @@
 title: Programming Ideas
 permalink: /:year/:month/:day/:title
-baseurl: http://mikekchar.github.com/portfolio/
+baseurl: http://mikekchar.github.com/portfolio
 safe: true
 lsi: false
 pygments: true
