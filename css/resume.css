@@ -46,7 +46,22 @@ li.degree { margin-bottom: 0.5em; }
 div.referee { margin-bottom: 1em; }
 table.referees { width: 60%; margin-top: 0em; margin-bottom: 0em;}
 .refereeName { font-weight: bold }
-.skillsetTitle { font-weight: bold }
+.skillSection { display: table; }
+.skillSection .skill { 
+    display: table-row;
+}
+.skillSection .skill .skillSetTitle { 
+    display: table-cell; 
+    font-weight: bold; 
+    width: 25%;
+    margin-right: 3em;
+    margin-bottom; 0.5em;
+}
+.skillSection .skill .skills { 
+    display: table-cell;
+    width: 60%;
+    margin-right: 10%; 
+}
 .urlA { font-family:sans-serif; color:red; }
 .navigation { 
 	margin-top: 0;
