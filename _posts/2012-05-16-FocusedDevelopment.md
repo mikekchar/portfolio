@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Focused Development
-permalink: FocusedDevelopment
 description: How to save money by focusing development.
 ---
 ## Saving Lots of Money
@@ -46,7 +45,7 @@ Concisely, the key to dramatic improvements in development speed
 is reducing the scope of the project.  This immediately raises the
 question of how one can effectively reduce the scope of a project
 without compromising market viability.  In my post on
-"[Requirements and Expectations](/RequirementsAndExpectations)" 
+"[Requirements and Expectations](/2012/04/19/requirements)" 
 I discuss the difference between a requirement and expectation.
 
 When gathering requirements for development, mistakes are incredibly
