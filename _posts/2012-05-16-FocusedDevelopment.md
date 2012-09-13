@@ -46,7 +46,7 @@ Concisely, the key to dramatic improvements in development speed
 is reducing the scope of the project.  This immediately raises the
 question of how one can effectively reduce the scope of a project
 without compromising market viability.  In my post on
-"[Requirements and Expectations](/RequirementsAndExpectations)" 
+"[Requirements and Expectations](../RequirementsAndExpectations)" 
 I discuss the difference between a requirement and expectation.
 
 When gathering requirements for development, mistakes are incredibly
