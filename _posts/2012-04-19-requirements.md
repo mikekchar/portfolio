@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Requirements and Expectations
+permalink: RequirementsAndExpectations
 description: How to differentiate between a requirement and an expectation
 ---
 ## Sources of Development Effort

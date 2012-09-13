@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Focused Development
+permalink: FocusedDevelopment
 description: How to save money by focusing development.
 ---
 ## Saving Lots of Money
