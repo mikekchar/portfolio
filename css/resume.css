@@ -27,7 +27,6 @@ ul { margin-top: 0.3em; }
 
 .personal {
     text-align: center;
-    page-break-after: auto;
 }
 
 .personal .name { 
@@ -42,7 +41,6 @@ ul { margin-top: 0.3em; }
 }
 
 .section {
-    page-break-before: auto;
 }
 
 .skills {
@@ -82,7 +80,6 @@ ul { margin-top: 0.3em; }
 
 .job {
     margin-bottom: 1.5em;
-    page-break-before: auto;
 }
 
 .job .employer {
