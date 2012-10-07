@@ -79,6 +79,7 @@ strong {
     display: table-row;
 }
 .abstract .row .outline {
+    width: 60%;
     display: table-cell;
     color: rgb(0, 0, 128);
     text-align: left;
@@ -90,7 +91,7 @@ strong {
 	font-family: serif; font-size: 1.5 em; 
 	color: rgb(0,0,128);
 	font-weight: bold;
-	margin-top: 1.5em;
+	margin-top: 0.5em;
 	margin-bottom: .5em;
 	border-bottom: 1px rgb(230,0,0) solid;
 }
@@ -100,6 +101,7 @@ strong {
     padding-left: 2em;
 }
 .abstract .row .content {
+    width: 40%;
     display: table-cell;
     vertical-align: top;
 }
@@ -115,9 +117,9 @@ strong {
 .abstract .row .content .description {
     font-weight: normal;
     font-size: 100%;
-    color: rgb(0, 0, 128);
+    color: rgb(128, 30, 30);
     margin-left: 5%;
-    margin-right: 25%;
+    margin-right: 15%;
 }
 .content{
 	font-family: sans-serif;

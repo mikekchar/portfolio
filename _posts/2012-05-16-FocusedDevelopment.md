@@ -3,6 +3,7 @@ layout: default
 title: Focused Development
 permalink: FocusedDevelopment
 description: How to save money by focusing development.
+summary: When software development teams try to save money, they often focus on the wrong thing.  It is tempting to try out tools or processes that promise to reduce development time.  In "No Silver Bullet", Fred Brooks showed that there is a limit to the amount of improvement one can expect from these kinds of changes.  The most effective way to deliver more value to the customer with less cost is by reducing the scope of development and controlling complexity of the product.
 ---
 ## Saving Lots of Money
 
