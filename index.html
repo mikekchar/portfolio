@@ -1,31 +1,20 @@
 ---
-layout: default
+layout: top
 title: Welcome
 description: This is the programming blog/portfolio of Mike Charlton.
 ---
 
-<h2>Latest Posts</h2>
-{% for post in site.posts limit: 4 %}
-<div class="post-listing">
-  <div class="inner">
-    <span class="title">
-    <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
-    {% if post.url %}<a href="{{site.baseurl}}{{post.url}}">{% endif %}
-      {{ post.title }}
-    {% if post.url %}</a>{% endif %}
-    </span>
-    <span class="tag-list">
-      {% for tag in post.tags %}
-      <a href="/tags/{{ tag | slugize }}">{{ tag }}</a>
-      {% endfor %}
-    </span>
-  </div>
-</div>
-{% endfor %}
-
 <h2>TODO</h2>
 <ul>
-    <li>Add an automatically generated rss feed</li>
+    <li>Add long descriptions for the posts</li>
+    <li>Put the long descriptions in the outline for the posts</li>
+    <li>Add long descriptions to the RSS</li>
+    <li>Put short descriptions in the hover for the recent posts</li>
+    <li>Remove blank line at the top of the outline</li>
+    <li>Put a border around the outline</li>
+    <li>Make the RSS Feed more attractive</li>
+    <li>Create some organization on the front page</li>
+    <li>Add some pictures to make the page more attractive</li>
     <li>Write more content</li>
 </ul>
 

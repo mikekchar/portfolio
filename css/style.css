@@ -57,6 +57,18 @@ strong {
 	font-style: italic;
 	font-family: sans-serif;
 }
+.site {
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: italic; 
+    color: rgb(120, 120, 120);
+	border-bottom: 1px rgb(230,0,0) solid;
+    margin-bottom: 1em;
+    margin-right: 20%;
+    width: 95%;
+    padding-top: 1em;
+    padding-left: 1em;
+}
 .abstract {
     display: inline-table;
     width: 95%;
@@ -74,26 +86,22 @@ strong {
 	background-color: rgb(255,255,180);
 }
 .abstract .row .outline .title {
-    color: rgb(0, 0, 128);
     text-align: center;
-    font-weight: bold;
+	font-family: serif; font-size: 1.5 em; 
+	color: rgb(0,0,128);
+	font-weight: bold;
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+	border-bottom: 1px rgb(230,0,0) solid;
 }
 .abstract .row .outline .list {
     color: rgb(0,0,150);
     padding-right: 1em;
+    padding-left: 2em;
 }
 .abstract .row .content {
     display: table-cell;
     vertical-align: top;
-}
-.abstract .row .content .site {
-    font-weight: bold;
-    font-size: 1.3em;
-    font-style: italic; 
-    color: rgb(120, 120, 120);
-	border-bottom: 1px rgb(230,0,0) solid;
-    margin-bottom: 1em;
-    margin-right: 20%;
 }
 .abstract .row .content .title {
     font-weight: bold;
