@@ -58,16 +58,25 @@ strong {
 	font-family: sans-serif;
 }
 .site {
-    font-weight: bold;
-    font-size: 1.3em;
-    font-style: italic; 
-    color: rgb(120, 120, 120);
+    display: inline-table;
 	border-bottom: 1px rgb(230,0,0) solid;
-    margin-bottom: 1em;
+    margin-bottom: 0;
     margin-right: 20%;
     width: 95%;
     padding-top: 1em;
     padding-left: 1em;
+}
+.site .title {
+    display: table-cell;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: italic; 
+    color: rgb(120, 120, 120);
+}
+.site .author {
+    display: table-cell;
+    text-align: right;
+    font-style: italic;
 }
 .abstract {
     display: inline-table;
@@ -143,7 +152,11 @@ strong {
 	margin-right: 15%;
 }
 .rss {
-    text-align: center;
+    text-align: right;
+    width: 95%;
+    font-size: 70%;
+    padding: 0;
+    margin: 0;
 }
 .license { 
 	text-align: center;

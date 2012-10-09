@@ -1,4 +1,5 @@
 title: Programming Ideas
+author: Mike Charlton
 permalink: /:year/:month/:day/:title
 baseurl: http://mikekchar.github.com/portfolio/
 safe: true

@@ -27,8 +27,11 @@
 
     <body>
         {% include navigation.html %}
+        <div class="site">
+            <span class="title">{{site.title}}</span>
+            <span class="author"> by {{site.author}}</span>
+        </div>
         {% include rss.html %}
-        <div class="site">{{site.title}}</div>
         <div class="abstract">
             <div class="row">
                 <div class="content">

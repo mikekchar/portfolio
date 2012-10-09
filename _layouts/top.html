@@ -7,7 +7,7 @@
 	    <title>{{ site.title }}</title>
 	    {% endif %}
 	
-	    <meta name="author" content="Mike Charlton" />
+        <meta name="author" content="{{site.author}}" />
 	    {% if page.description %}
 	    <meta name="description" content="{{ page.description }}" />
 	    {% else %}
@@ -26,8 +26,11 @@
     </head>
 
     <body>
+        <div class="site">
+            <span class="title">{{site.title}}</span>
+            <span class="author"> by {{site.author}}</span>
+        </div>
         {% include rss.html %}
-        <div class="site">{{site.title}}</div>
         <div class="abstract">
             <div class="row">
                 <div class="content">
