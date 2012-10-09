@@ -85,6 +85,10 @@ strong {
     text-align: left;
     vertical-align: top;
 	background-color: rgb(255,255,180);
+    border-top: 1px #000088 groove;
+    border-left: 1px #000088 groove;
+	border-right: 4px #444444 groove;
+	border-bottom: 4px #444444 groove;
 }
 .abstract .row .outline .title {
     text-align: center;
@@ -106,6 +110,7 @@ strong {
     vertical-align: top;
 }
 .abstract .row .content .title {
+    text-align: center;
     font-weight: bold;
     font-size: 250%;
     color: rgb(0, 0, 128);
@@ -118,8 +123,9 @@ strong {
     font-weight: normal;
     font-size: 100%;
     color: rgb(128, 30, 30);
-    margin-left: 5%;
-    margin-right: 15%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .content{
 	font-family: sans-serif;
