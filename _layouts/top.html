@@ -37,7 +37,7 @@
                 <div class="outline">
                     <div class="title">Latest Posts</div>
                     {% for post in site.posts limit: 4 %}
-                    <div class="list">
+                    <div class="list" title="{{post.description}}">
                         <span class="posting">
                             <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
                             {% if post.url %}<a href="{{site.baseurl}}{{post.url}}">{% endif %}
