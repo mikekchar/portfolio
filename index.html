@@ -3,28 +3,44 @@ layout: top
 title: Welcome
 description: This is the programming blog/portfolio of Mike Charlton.
 ---
+<h2>Content</h2>
 
-<h2>TODO</h2>
+<h3>People Development</h3>
 <ul>
-    <li>Fix bug were RSS link is wrong on posts</li>
-    <li>Create some organization on the front page</li>
-    <li>Add some pictures to make the page more attractive</li>
-    <li>Write more content</li>
+    {% for post in site.categories.People %}
+    <div class="list" title="{{post.description}}">
+        <span class="posting">
+            <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            {% if post.url %}<a href="{{site.baseurl}}{{post.url}}">{% endif %}
+                {{ post.title }}
+                {% if post.url %}</a>{% endif %}
+        </span>
+    </div>
+    {% endfor %}
 </ul>
 
-<h2>Licensing</h2>
-<p>Licensing is a very difficult topic.  As this is my own 
-personal portfolio, I will only place my own content here.</p>
+<h3>Agile Process</h3>
+<ul>
+    {% for post in site.categories.Agile %}
+    <div class="list" title="{{post.description}}">
+        <span class="posting">
+            <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            {% if post.url %}<a href="{{site.baseurl}}{{post.url}}">{% endif %}
+                {{ post.title }}
+                {% if post.url %}</a>{% endif %}
+        </span>
+    </div>
+    {% endfor %}
+</ul>
 
-<p>As you can see at the bottom of this page, the contents of
-this site are under a Creative Commons license.</p>
-<p>I will frequently embed code from other projects into this 
-portfolio.  The code snippets I embed will be covered by the 
-creative commons license, no matter what the original license was.  
-However, this does not imply a change in the license of the 
-original code.  As I said, I will only post my own code here, 
-and since I hold the copyright, I will dual license those 
-snippets only.  If you wish to use the content of my portfolio, 
-or of any of my projects under different terms, please contact me.  
-In most cases I will be happy to provide other options.</p>
+<h2>Hire Me</h2>
+<p>
+Status: <strong>Available</strong> from November, 2012 for UK based positions.
+</p>
+<p>
+Please review <a href="/Resume">my CV / r&eacute;sum&eacute;</a>.  If my skills match your need, feel free to contact
+me.  I am happy to entertain both contract and full time positions.  
+</p>
 
+{% include TODO.html %}
+{% include licensing.html %}

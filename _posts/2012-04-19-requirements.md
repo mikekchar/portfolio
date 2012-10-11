@@ -2,6 +2,7 @@
 layout: default
 title: Requirements and Expectations
 permalink: RequirementsAndExpectations
+category: Agile
 description: How to differentiate between a requirement and an expectation.
 summary: Software development activity comes from many different sources.  Some of these activities are necessary to deploy the system.  Some of them are not.  Additionally, users of the system and even people developing the system have expectations that may or may not match with these requirements.  This article discusses the difference between a requirement and an expectation.
 ---

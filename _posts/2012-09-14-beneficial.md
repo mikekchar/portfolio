@@ -2,6 +2,7 @@
 layout: default
 title: Useful and Beneficial
 permalink: UsefulAndBeneficial
+category: People
 description: How to do well at your job without getting used.
 summary: One of the major problems facing software teams is retaining talent. A familiar refrain is, "If I'm going to put up with this, I'll need more money."  Even as developers' salaries increase, their satisfaction in their jobs doesn't seem to.  This story from taoist literature shed some surprising light on the problem for me.
 ---
