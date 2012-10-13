@@ -117,4 +117,8 @@ ul { margin-top: 0.3em; }
     font-style: italic; 
 }
 
+.AnalyticsWarning {
+    display: none;
+}
+
 
