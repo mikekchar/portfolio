@@ -8,8 +8,8 @@ summary: With apologies to Star Trek fans, these are my ideas on how linguistic 
 ---
 ## How Can We Improve Programming Fluency?
 
-In my upcoming discussion on language acquisition,
-I will make the case that programming has much in common with
+In my discussion on [language acquisition](../LanguageAcquisition),
+I make the case that programming has much in common with
 linguistic skills like speaking a language.  The problems
 one encounters with language acquisition are very similar
 to the problems one encounters with improving fluency
@@ -17,11 +17,13 @@ in programming.  Here, I list a number of rules for
 acquiring fluency in literary skills.
 
 This information is
-based on theories from an American researcher called Stephen Krashen.  His
+based on theories from an American researcher called
+[Stephen Krashen](http://en.wikipedia.org/wiki/Stephen_Krashen).  His
 research is not without critics and quite a few of his ideas are 
 unsubstantiated by scientific verification (which is notoriously difficult
-in this field).  However, his ideas form the most comprehensive framework
-for understanding acquisition that I have encountered.  I have also used
+in this field).  However, his ideas form the most [comprehensive framework
+for understanding acquisition](http://www.sk.com.br/sk-krash.html)
+that I have encountered.  I have also used
 many of these ideas in the classroom with considerable success.
 
 ### Rule 1: "Acquisition" and "Learning" are different
