@@ -61,6 +61,11 @@ context, the FileSelectionDialog is displayed.  When a user
 selects a file from the dialog, a File is opened and it's contents
 are placed in the TextBuffer.
 
+In this diagram, the contexts are in white, the model objects are in
+pink and the user interface objects are in yellow.
+
+![Object Diagram](../images/Context1.png "Object Diagram")
+
 As you can see, each context has access to a certain number of model
 objects.  The TextEditing context has access to the TextBuffer;
 the FileLoading context has access to a File and the TextBuffer.
@@ -107,10 +112,13 @@ name from the user.
 
 Thus my Interaction for the FileLoading context is very simple.
 It is simply a single method that requests a filename.  When the
-context invokes this method, the FileSelectionDialg is displayed,
+context invokes this method, the FileSelectionDialog is displayed,
 the user selects a file, and the file name is returned to the
 Context.  The Context then uses that information to create a File
-object and load the contents of the file.
+object and load the contents of the file.  In the following diagram
+you can see how the FileLoadingInterface works.
+
+![FileLoading Interface](../images/Context2.png "FileLoading Interface")
 
 For the TextEditing Context, things are a little more complex.
 We need to be able request that the TextFrame opens.  We also
@@ -120,6 +128,8 @@ when a file is loaded).  In addition to making requests of
 the UI, we also need to be able to react to requests from
 the UI.  In this case, we need to update the TextBuffer whenever
 the text in the TextFrame is updated.
+
+![TextEditing Interface](../images/Context3.png "TextEditing Interface")
 
 ### Entering and Exiting Contexts
 

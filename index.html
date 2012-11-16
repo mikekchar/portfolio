@@ -47,6 +47,20 @@ description: This is the programming blog/portfolio of Mike Charlton.
     {% endfor %}
 </ul>
 
+<h3>Puzzles</h3>
+<ul>
+    {% for post in site.categories.Puzzles %}
+    <div class="list" title="{{post.description}}">
+        <span class="posting">
+            <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            {% if post.url %}<a href="{{site.baseurl}}{{post.url}}">{% endif %}
+                {{ post.title }}
+                {% if post.url %}</a>{% endif %}
+        </span>
+    </div>
+    {% endfor %}
+</ul>
+
 <h2>Hire Me</h2>
 <p>
 Status: <strong>Available</strong> from November, 2012 for UK based positions.
