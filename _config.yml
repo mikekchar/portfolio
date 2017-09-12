@@ -4,6 +4,4 @@ permalink: /:year/:month/:day/:title
 baseurl: http://mikekchar.github.com/portfolio/
 safe: true
 lsi: false
-pygments: true
-server: true
-auto: true
+highligher: pygments
